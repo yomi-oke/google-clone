@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -60,7 +61,6 @@ input:-webkit-autofill:active  {
 /* main */
 .main {
   padding: 0 25px;
-  height: 80vh;
 }
 
 .google-pic{
@@ -170,7 +170,7 @@ input:-webkit-autofill:active  {
 /* footer */
 .footer {
   background: #eeeeee;
-  position: auto;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   font-size: 14px;
