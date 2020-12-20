@@ -153,6 +153,7 @@ input:-webkit-autofill:active  {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 13px;
   margin: 15px auto;
   line-height: 1.4rem;
@@ -171,7 +172,8 @@ input:-webkit-autofill:active  {
 /* footer */
 .footer {
   background: #eeeeee;
-  position: fixed;
+  position: absolute;
+  left: 0;
   bottom: 0;
   width: 100vw;
   font-size: 14px;
