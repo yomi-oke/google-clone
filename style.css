@@ -150,6 +150,7 @@ input:-webkit-autofill:active  {
 /* languages */
 .lang {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   font-size: 13px;
@@ -185,8 +186,10 @@ input:-webkit-autofill:active  {
 .footer .info {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
   border-top: 1px solid #cfcaca;
   padding: 10px 20px;
 }
