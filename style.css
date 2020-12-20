@@ -171,7 +171,7 @@ input:-webkit-autofill:active  {
 /* footer */
 .footer {
   background: #eeeeee;
-  position: fixed;
+  position: auto;
   bottom: 0;
   width: 100vw;
   font-size: 14px;
